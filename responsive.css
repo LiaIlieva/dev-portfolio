@@ -1,0 +1,112 @@
+@media screen and (max-width:600px){
+    
+    body{
+       font-size: 9px;
+       padding: 22px;
+    }
+
+    header nav ul li {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        line-height: 15px;
+        padding-bottom: 0;
+    }
+
+    .header-title h1 {
+        font-size: 20px;
+        padding-bottom: 22px;
+        text-transform: uppercase;
+        padding-top: 0;
+    }
+
+    .header-title p {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+
+    .choose-us {
+        padding: 2.5rem 10em;
+        background: rgb(231, 242, 245);
+     }
+      
+      .choose-us ul{
+        display: flex;
+        flex-direction: column;
+     }
+      
+      .choose-us li {
+        flex: 0 0 25%;
+        text-align: center;
+     }
+      
+      .choose-us li h4 {
+        padding-bottom: 0.5rem;
+        font-size: 20px;
+      }
+      
+      .choose-us li img {
+        width: 8rem;
+        height: 8rem;
+      }
+
+      .choose-us li p{
+        text-align: center;
+        margin-bottom: 2em;
+      }
+      
+       h3{
+          font-size: 18px;
+       }
+
+       .blog-section p:nth-child(2),
+       .team-description p:nth-child(2),
+       .about-us p:nth-child(2) {
+            font-style: italic;
+            padding-bottom: 1.5rem;
+        }
+
+       .about-us p:nth-child(3){
+           width: 90%;
+           margin: 0 auto;
+        }
+
+        .team-description ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .team-description ul li img {
+            width: 71px;
+            height: 87px;
+            padding-bottom: 0.3rem;
+
+        }
+
+        .team-description ul li > p:nth-child(2) {
+            padding: 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        .team-description ul > li{
+            padding-right: 17px;
+        }
+
+        .header-title button {
+            padding: 0.5em 0.8em;
+            font-size: 14px;
+            margin-top: 2em;
+            margin-bottom: 0;
+        }
+
+        header{
+            padding: 5px 12px;
+        }
+
+        .header-title {
+            padding: 3em 0;
+          }
+
+     
+}
